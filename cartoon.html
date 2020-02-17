@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Teste</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="teste front-end">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Fabio Calcagno">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="programacao.css">
+    <link rel="stylesheet" href="carrousel.css">
+    <link rel="stylesheet" href="modal-hora-detail.css">
+    <link rel="stylesheet" href="modal-personagens.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="main-header">
+                <div class="advertisements">
+                    <h1 class="cn-bold">14:00</h1>
+                    <div class="description-wrapper">
+                        <h5>ajshdasj kajsdhkajsd sajsdh kasjd </h5>
+                        <a href="" class="bg-color-yellow">+</a>
+                    </div>
+                </div>
+                <div class="img"></div>
+            </div>
+            <div class="bottom-header">
+                <a href=""></a>
+                <div>
+                    <a href="">procurar</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container-programacao">
+                <div class="cabecalho-data bg-color-blue ">
+                    <h1 id="show-data"></h1>
+                </div>
+                <div class="programacao-wrapper">
+                    <div class="programacao-diaria">
+                        <div class="prog-itens" id="item-0"> </div>
+                        <div class="prog-itens" id="item-1"> </div>
+                        <div class="prog-itens" id="item-2"> </div>
+                        <div class="prog-itens" id="item-3"> </div>
+                        <div class="prog-itens" id="item-4"> </div>
+                        <div class="prog-itens" id="item-5"> </div>
+                        <div class="prog-itens" id="item-6"> </div>
+                        <div class="prog-itens" id="item-7"> </div>
+                        <div class="prog-itens" id="item-8"> </div>
+                        <div class="prog-itens" id="item-9"> </div>
+                        <div class="prog-itens" id="item-10"> </div>
+                        <div class="prog-itens" id="item-11"> </div>
+                        <div class="prog-itens" id="item-12"> </div>
+                        <div class="prog-itens" id="item-13"> </div>
+                        <div class="prog-itens" id="item-14"> </div>
+                        <div class="prog-itens" id="item-15"> </div>
+                        <div class="prog-itens" id="item-16"> </div>
+                        <div class="prog-itens" id="item-17"> </div>
+                        <div class="prog-itens" id="item-18"> </div>
+                        <div class="prog-itens" id="item-19"> </div>
+                        <div class="prog-itens" id="item-20"> </div>
+                        <div class="prog-itens" id="item-21"> </div>
+                        <div class="prog-itens" id="item-22"> </div>
+                        <div class="prog-itens" id="item-23"> </div>
+                        <div class="prog-itens" id="item-24"> </div>
+
+
+                    </div>
+                    <div class="programacao-detail">
+                        <div class="prog-detail-itens" id="local-time"></div>
+                        <div class="prog-detail-itens" name="dexter's lab">
+                            <div class="item-time"></div>
+                            <div class="item-cartoon"></div>
+                            <div class="item-descrip">Jonny Bravo</div>
+                        </div>
+                        <div class="prog-detail-itens">
+                            <div class="item-time"></div>
+                            <div class="item-cartoon"></div>
+                            <div class="item-descrip"> coragem o cão covarde </div>
+                        </div>
+                        <div class="prog-detail-itens">
+                            <div class="item-time"></div>
+                            <div class="item-cartoon"></div>
+                            <div class="item-descrip">laboratorio de dexter</div>
+                        </div>
+                        <div class="prog-detail-itens">
+                            <div class="item-time"></div>
+                            <div class="item-cartoon"></div>
+                            <div class="item-descrip">vampirinho</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carrousel">
+                    <div class="carrousel-itens">
+                        <div class="carrousel-controls" id="prev">
+                            < </div>
+                                <img class="item item-carrousel" src="./images/carrousel/desenhos/1.png" id="slider-1" alt="fabio">
+                                <img class="item item-carrousel" src="./images/carrousel/desenhos/2.png" id="slider-2" alt="">
+                                <img class="item item-carrousel" src="./images/carrousel/desenhos/3.png" id="slider-3" alt="">
+                                <img class="item item-carrousel" src="./images/carrousel/desenhos/4.png" id="slider-4" alt="">
+                                <img class="item item-carrousel" src="./images/carrousel/desenhos/5.png" id="slider-5" alt="">
+                                <img class="item inativo" src="./images/carrousel/desenhos/6.png" id="slider-6" alt="">
+                                <img class="item inativo" src="./images/carrousel/desenhos/7.png" id="slider-7" alt="">
+                                <img class="item inativo" src="./images/carrousel/desenhos/8.png" id="slider-8" alt="">
+                                <img class="item inativo" src="./images/carrousel/desenhos/9.png" id="slider-9" alt="">
+                                <img class="item inativo" src="./images/carrousel/desenhos/10.png" id="slider-10" alt="">
+                                <div class="carrousel-controls" id="next"> > </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </main>
+    <section>
+        <div class="modal-monitor" id="modalMonitor">
+            <div class="modal-container">
+                <div class="modal-exit bg-color-pink">
+                    <button class="button-modal" onclick="fechar(1)">X</button>
+                </div>
+                <div class="modal-presentation bg-color-yellow ">
+                    <div class="cartoon-image"></div>
+                    <div class="cartoon-title">
+                        <h1>Laboratorio de Dexter</h1>
+                        <h2>Dexter's Lab</h2>
+                        <h3>conquistar o mundo</h3>
+                    </div>
+                    <div class="classificacao-etaria">10</div>
+                </div>
+                <div class="modal-cartoon-description bg-color-pink">
+                    <h1 id="modal-data"></h1>
+                    <p class="cartoon-description"></p>
+                </div>
+                <div class="modal-cartoon-info bg-color-pink">
+                    <div class="row-cartoon-info">
+                        <p class="cartoon-info" id="">PRIMEIRO EPISÓDIO:</p>
+                        <p class="cartoon-info-data" id=""></p>
+                    </div>
+                    <div class="row-cartoon-info">
+                        <p class="cartoon-info" id="">EPISÓDIO FINAL:</p>
+                        <p class="cartoon-info-data" id=""></p>
+                    </div>
+                    <div class="row-cartoon-info">
+                        <p class="cartoon-info" id="">TEMA MUSICAL:</p>
+                        <p class="cartoon-info-data" id=""></p>
+                    </div>
+                    <div class="row-cartoon-info">
+                        <p class="cartoon-info" id="">ELENCO:</p>
+                        <p class="cartoon-info-data" id=""></p>
+                    </div>
+                    <div class="row-cartoon-info">
+                        <p class="cartoon-info" id="">EMISSORAS ORIGINAIS:</p>
+                        <p class="cartoon-info-data" id=""></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-monitor" id="modal-personagens">
+            <div class="modal2-container bg-color-blue ">
+                <div class="modal-exit2 bg-color-blue">
+                    <button class="button-modal2 bg-color-pink " onclick="fechar(2)">X</button>
+                </div>
+                <div class="modal-presentation2 bg-color-yellow ">
+                    <div class="cartoon-image2"></div>
+                    <div class="cartoon-title2">
+                        <h1>Meninas Super Poderosas</h1>
+                        <h2>the Powerpuff Girls</h2>
+                    </div>
+                    <div class="classificacao-etaria">10</div>
+                </div>
+                <div class="modal2-tabela-prog">
+                    <div class="tabela-prog-itens">
+                        <p>Domingo</p>
+                        <p>17</p>
+                        <p>23:30</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>Segunda</p>
+                        <p>18</p>
+                        <p>18:30</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>terça</p>
+                        <p>19</p>
+                        <p>17:30</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>Quarta</p>
+                        <p>20</p>
+                        <p>20:30</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>Quinta</p>
+                        <p>21</p>
+                        <p>21:00</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>Sexta</p>
+                        <p>22</p>
+                        <p>5:45</p>
+                    </div>
+                    <div class="tabela-prog-itens">
+                        <p>sabado</p>
+                        <p>23</p>
+                        <p>6:30</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-presentation">
+                <div class="footer-logo"></div>
+                <div class="footer-descr">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sint tenetur, quod, ipsa animi nobis
+                        voluptates cumque dolore quisquam alias numquam esse reprehenderit sequi voluptatibus non! Sit, eum
+                        quae? Deserunt.</p>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="footer-links-wrapper">
+                    <a href=""> guia para pais </a>
+                    <a href=""> dicas de segurança </a>
+                    <a href=""> programação </a>
+                    <a href="">Programação efetivamente veiculada</a>
+                </div>
+                <div class="footer-links-wrapper">
+                    <a href="">Programação efetivamente veiculada (HD) </a>
+                    <a href=""> ajuda </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="./date.js"></script>
+<script src="./programacao.js"></script>
+<script src="./programacaoPorHora.js"></script>
+<script src="./modal.js"></script>
+
+
+</html>

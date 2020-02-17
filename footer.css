@@ -1,0 +1,72 @@
+
+
+
+footer .container{
+    flex: 1;
+    height: 150px;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'cn-bold';
+    font-size: 0.7em;
+}
+
+.footer-presentation{
+    flex: 2;
+    background-color: #4c4c4c;
+    display: flex;
+    align-items: center;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 10%;
+    margin: 0 0 0 20px;
+
+    background-image: url('./images/logo-cn.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+
+.footer-descr{
+    flex: 1;
+    
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.footer-descr p{
+    width: 80%;
+}
+
+
+.footer-links{
+
+    flex:1;
+    background-color: black;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.footer-links-wrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.footer-links-wrapper a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 20px;
+    line-height: 2em;
+
+}
+ 

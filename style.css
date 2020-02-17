@@ -1,0 +1,62 @@
+
+
+
+.bg-color-blue{
+    background-color:  #009ade
+}
+.bg-color-gray{
+    background-color: #4c4c4c;
+}
+.bg-color-pink{
+    background-color: #ec0080;
+}
+.bg-color-black{
+    background-color: #000000;
+}
+.bg-color-yellow{
+    background-color: #ffea00;
+}
+.bg-color-white{
+    background-color: #ffffff;
+}
+
+
+h1{
+    color: white;
+    font-size: 2em
+}
+h5{
+    color: white;
+    font-size: 0.5em;
+}
+
+
+@font-face{
+    src: url('./fonts/cn-bold/cn-bold.otf');
+    font-family: 'cn-bold'
+}
+@font-face{
+    src: url('./fonts/Whitney-Font/whitney-medium.otf');
+    font-family: 'whitney-medium'
+}
+
+@font-face{
+    src: url('./fonts/Whitney-Font/whitney-light.otf');
+    font-family: 'whitney-light'
+}
+
+@font-face{
+    src: url('./fonts/Whitney-Font/whitney-lightsc.otf');
+    font-family: 'whitney-lightsc'
+}
+
+
+
+
+.cn-bold{
+     font-family: 'cn-bold';
+}
+.whitney{
+    font-family: 'whitney-medium'
+}
+

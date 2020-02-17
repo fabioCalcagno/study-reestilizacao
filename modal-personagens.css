@@ -1,0 +1,117 @@
+
+
+
+
+#modal-personagens{
+    display: none;
+}
+
+.modal2-container{
+    position: fixed;
+    min-width: 55%;
+    height: 300px;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 10px;
+    box-shadow: 0px 0px 0px 9999px rgba(255, 255, 255, 0.6);
+
+  
+}
+
+
+
+.modal-exit2{
+    flex: 0.1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px 10px 0 0 ;
+
+}
+
+.button-modal2{
+    margin: 4px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.modal-presentation2{
+    flex:1;
+    display: flex;
+    align-items: center;
+}
+
+.cartoon-image2{
+    background-image: url('./images/carrousel/desenhos/5.png');
+    background-size: contain;
+    flex: 1;
+    height: 30%;
+    width: 20%;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #009ade;
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.cartoon-title2{
+   
+    display: flex;
+    margin-left: 70px;
+    padding: 10px;
+    flex: 2;
+    background-color: #009ade;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding-left: 100px;
+    
+}
+
+
+
+.cartoon-title2 > h1, h2{
+    font-size: 1.3em;
+    margin: 0;
+}
+
+
+.modal2-tabela-prog{
+    flex:1;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tabela-prog-itens{
+    
+    width: 13%;
+    height: 70px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    text-align: center;
+    background-color: white;
+}
+
+.tabela-prog-itens p{
+    color:#ec0080;
+    margin: 0;
+}
+
+.tabela-prog-itens p:nth-last-child(1){
+    color: #ffea00;
+}

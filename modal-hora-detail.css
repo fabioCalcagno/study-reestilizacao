@@ -1,0 +1,183 @@
+
+
+.modal-monitor{
+    display: none;
+    top: 0;
+  
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    width: 99%;
+    background-image: rgba(1,1,1,0.1);
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    font-family: 'whitney-medium';
+    text-transform: uppercase;
+    font-family: 'whitney-medium';
+}
+
+
+
+.modal-container{
+    min-width: 35%;
+    height: 80%;
+    min-height: 80%;
+    position: fixed;
+    border-radius: 10px;
+
+    display: flex;
+    flex-flow: column wrap;
+    box-shadow: 0px 0px 0px 9999px rgba(255, 255, 255, 0.6);
+    justify-content: center;
+    border-bottom: 10px solid #ec0080;
+    border-radius: 10px;
+    
+}
+.modal-exit{
+    flex: 0.4; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+
+.button-modal{
+    margin: 4px;
+    width: 20px;
+    height: 20px;
+    background-color: #009ade;
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.modal-presentation{
+    flex: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 130px;
+   
+    }
+
+.cartoon-image{
+    background-image: url('./images/carrousel/desenhos/3.png');
+    background-size: contain;
+    flex: 1;
+    height: 20%;
+    width: 20%;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 5px solid #009ade;
+    position: absolute;
+    z-index: 999;
+    background-color: white;
+    margin-left: 10px;
+}
+
+.cartoon-title{
+   
+    display: flex;
+    margin-left: 50px;
+    padding: 10px;
+    flex: 2;
+    background-color: #009ade;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding-left: 100px;
+    
+}
+
+
+.cartoon-title h1,h2,h3{
+    margin: 0;
+    color: white;
+    font-size: 1.1em;
+
+}
+
+.cartoon-title  h3{
+    font-family: 'whitney-light';
+    font-size: 0.5!important;
+
+}
+                       
+.classificacao-etaria{
+    flex: 0.3 ;
+    line-height: 2em;
+    margin: 20px;
+    background-color: #009ade;
+    border: 3px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 10px;
+
+}
+.modal-cartoon-description{
+    flex: 2;
+    border-bottom: 4px solid #ffea00;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    padding-left: 10px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+
+#modal-data{
+    font-size: 1.3em;
+    margin: 0;
+    line-height: 2em;
+}
+.cartoon-description,
+.cartoon-info{
+    max-width: 400px;
+    margin: 0;
+    color: white;
+}
+
+
+.row-cartoon-info{
+    flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+.cartoon-info-data{
+    font-family: 'whitney-lightsc';
+   font-size: 0.9em;
+   text-indent: 10px;
+    color:rgb(209, 209, 209);
+    margin: 0;
+}
+
+.modal-cartoon-info{
+    flex:3;
+    border-bottom: 4px solid #ffea00;
+    padding-left: 10px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+   
+    }
+
+    .modal-cartoon-info:nth-child(1n+3){
+        padding-top: 10px;
+    }
+
+
+
+

@@ -1,0 +1,57 @@
+
+
+.carrousel{
+  
+    height: 100px;
+    margin-top: 0.5em;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(180deg, #ec0080 95%, #009ade 5px);
+ 
+    border-bottom: 5px solid yellow;
+   
+
+}
+.carrousel-itens{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+.item-carrousel{
+  width: 120px;
+  height: 120px;
+  margin-top: -15px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.carrousel-controls{
+    width: 120px;
+    height: 120px;
+  font-size: 4em;
+  margin-top: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    color: white;
+    cursor: pointer;
+
+        -webkit-touch-callout: none;  
+        -webkit-user-select: none;    
+        -khtml-user-select: none;    
+        -moz-user-select: none;      
+        -ms-user-select: none;        
+        user-select: none;            
+       
+    
+}
+
+.carrousel-controls:hover{
+    color: black;
+}
